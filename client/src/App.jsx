@@ -15,7 +15,7 @@ function App() {
   });
 
   useEffect(() => {
-    fetch("https://todo-kappa-two-58.vercel.app/todos", {
+    fetch("https://toodify-backend.vercel.app/todos", {
       method: "GET",
     }).then((resp) => {
       resp.json().then((data) => {
