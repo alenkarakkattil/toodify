@@ -24,7 +24,7 @@ function deleteItemIndex(arr, id) {
 app.use(bodyParser.json());
 app.use(cors(
   {
-    origin: ["https://toodify.vercel.app"],
+    origin: ["https://toodify-five.vercel.app/"],
   }
 ));
 
